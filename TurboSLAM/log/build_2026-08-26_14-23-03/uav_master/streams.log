@@ -1,0 +1,40 @@
+[1.206s] Invoking command in '/home/cat/TurboSLAM/src/uav_master': PYTHONPATH=/home/cat/TurboSLAM/build/uav_master/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uav_master build --build-base /home/cat/TurboSLAM/build/uav_master/build install --record /home/cat/TurboSLAM/build/uav_master/install.log --install-scripts $base/lib/uav_master --single-version-externally-managed install_data
+[1.685s] running egg_info
+[1.687s] creating ../../build/uav_master/uav_master.egg-info
+[1.688s] writing ../../build/uav_master/uav_master.egg-info/PKG-INFO
+[1.689s] writing dependency_links to ../../build/uav_master/uav_master.egg-info/dependency_links.txt
+[1.690s] writing entry points to ../../build/uav_master/uav_master.egg-info/entry_points.txt
+[1.691s] writing requirements to ../../build/uav_master/uav_master.egg-info/requires.txt
+[1.691s] writing top-level names to ../../build/uav_master/uav_master.egg-info/top_level.txt
+[1.692s] writing manifest file '../../build/uav_master/uav_master.egg-info/SOURCES.txt'
+[1.696s] reading manifest file '../../build/uav_master/uav_master.egg-info/SOURCES.txt'
+[1.698s] writing manifest file '../../build/uav_master/uav_master.egg-info/SOURCES.txt'
+[1.698s] running build
+[1.699s] running build_py
+[1.699s] creating /home/cat/TurboSLAM/build/uav_master/build
+[1.700s] creating /home/cat/TurboSLAM/build/uav_master/build/lib
+[1.700s] creating /home/cat/TurboSLAM/build/uav_master/build/lib/uav_master
+[1.701s] copying uav_master/odometry_subscriber.py -> /home/cat/TurboSLAM/build/uav_master/build/lib/uav_master
+[1.701s] copying uav_master/__init__.py -> /home/cat/TurboSLAM/build/uav_master/build/lib/uav_master
+[1.702s] copying uav_master/odometry_node.py -> /home/cat/TurboSLAM/build/uav_master/build/lib/uav_master
+[1.703s] running install
+[1.704s] running install_lib
+[1.706s] creating /home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages/uav_master
+[1.706s] copying /home/cat/TurboSLAM/build/uav_master/build/lib/uav_master/odometry_subscriber.py -> /home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages/uav_master
+[1.708s] copying /home/cat/TurboSLAM/build/uav_master/build/lib/uav_master/__init__.py -> /home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages/uav_master
+[1.709s] copying /home/cat/TurboSLAM/build/uav_master/build/lib/uav_master/odometry_node.py -> /home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages/uav_master
+[1.712s] byte-compiling /home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages/uav_master/odometry_subscriber.py to odometry_subscriber.cpython-310.pyc
+[1.717s] byte-compiling /home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages/uav_master/__init__.py to __init__.cpython-310.pyc
+[1.718s] byte-compiling /home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages/uav_master/odometry_node.py to odometry_node.cpython-310.pyc
+[1.720s] running install_data
+[1.721s] creating /home/cat/TurboSLAM/install/uav_master/share/ament_index
+[1.721s] creating /home/cat/TurboSLAM/install/uav_master/share/ament_index/resource_index
+[1.722s] creating /home/cat/TurboSLAM/install/uav_master/share/ament_index/resource_index/packages
+[1.722s] copying resource/uav_master -> /home/cat/TurboSLAM/install/uav_master/share/ament_index/resource_index/packages
+[1.723s] copying package.xml -> /home/cat/TurboSLAM/install/uav_master/share/uav_master
+[1.723s] running install_egg_info
+[1.731s] Copying ../../build/uav_master/uav_master.egg-info to /home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages/uav_master-0.0.0-py3.10.egg-info
+[1.733s] running install_scripts
+[1.771s] Installing odometry_subscriber script to /home/cat/TurboSLAM/install/uav_master/lib/uav_master
+[1.772s] writing list of installed files to '/home/cat/TurboSLAM/build/uav_master/install.log'
+[1.848s] Invoked command in '/home/cat/TurboSLAM/src/uav_master' returned '0': PYTHONPATH=/home/cat/TurboSLAM/build/uav_master/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uav_master build --build-base /home/cat/TurboSLAM/build/uav_master/build install --record /home/cat/TurboSLAM/build/uav_master/install.log --install-scripts $base/lib/uav_master --single-version-externally-managed install_data

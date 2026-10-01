@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "sdk_core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-sdk_core-6784a2db8d33587d35e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sdk_core",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "livox_sdk2",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "livox_lidar_sdk_shared::@bae76f41bc05054a2095",
+					"jsonFile" : "target-livox_lidar_sdk_shared-c0ac90ba2733257c0095.json",
+					"name" : "livox_lidar_sdk_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "livox_lidar_sdk_static::@bae76f41bc05054a2095",
+					"jsonFile" : "target-livox_lidar_sdk_static-f8e51cadb3dd28ec7453.json",
+					"name" : "livox_lidar_sdk_static",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cat/TurboSLAM/build/livox_sdk2",
+		"source" : "/home/cat/TurboSLAM/3rdparty/Livox-SDK2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

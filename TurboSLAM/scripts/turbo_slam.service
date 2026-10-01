@@ -1,0 +1,92 @@
+# ============================================================
+#  TurboSLAM systemd 服务 — 开机自启 + 崩溃自动恢复
+#
+#  安装:
+#    sudo cp scripts/turbo_slam.service /etc/systemd/system/
+#    sudo systemctl daemon-reload
+#    sudo systemctl enable turbo_slam
+#
+#  管理:
+#    sudo systemctl start|stop|restart|status turbo_slam
+#    journalctl -u turbo_slam -f              # 实时日志
+#    journalctl -u turbo_slam -n 100          # 最近100行
+# ============================================================
+
+[Unit]
+Description=TurboSLAM — LIDAR + FAST-LIO + uav_master 总服务
+Documentation=https://github.com/your-repo/TurboSLAM
+After=network-online.target time-sync.target systemd-timesyncd.service
+After=multi-user.target
+Wants=network-online.target time-sync.target
+RequiresMountsFor=/home/cat
+
+# 以下硬件按需开启（Jetson 平台）:
+# Requires=dev-ttyTHS1.device
+# After=dev-ttyTHS1.device
+
+[Service]
+Type=forking
+
+# ---- 运行身份 ----
+User=cat
+Group=cat
+
+# ---- 环境变量 ----
+Environment="HOME=/home/cat"
+Environment="USER=cat"
+Environment="SHELL=/bin/bash"
+Environment="XDG_RUNTIME_DIR=/run/user/1000"
+Environment="ROS_DOMAIN_ID=0"
+
+# ---- 工作目录 & PATH ----
+WorkingDirectory=/home/cat/TurboSLAM
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+# ---- 启动前检查 ----
+# 确认 install/setup.bash 存在, 避免 source 失败
+ExecStartPre=/bin/bash -c 'test -f /home/cat/TurboSLAM/install/setup.bash || (echo "ERROR: setup.bash not found" && exit 1)'
+# 确认 tmuxinator 可用
+ExecStartPre=/usr/bin/which tmuxinator
+# 等待系统时钟同步（避免 SLAM 时间戳异常）
+ExecStartPre=/bin/bash -c 'for i in $(seq 1 30); do timedatectl show | grep -q "NTPSynchronized=yes" && break; sleep 1; done'
+
+# ---- 主命令 ----
+# script 封装: 让 bash source 在伪终端中完成，并重定向到 /dev/null
+# 含义: source ROS2 环境 → 启动 tmux → tmuxinator 按 slam.yaml 创建所有 pane
+ExecStart=/bin/bash -c "\
+    source /home/cat/TurboSLAM/install/setup.bash && \
+    tmux start-server && \
+    tmuxinator start -p /home/cat/TurboSLAM/scripts/slam.yaml"
+
+# ---- 崩溃自动重启 ----
+Restart=on-failure
+RestartSec=5
+RestartPreventExitStatus=0 255
+
+# ---- 信号与关闭 ----
+# KillMode=process: 仅杀 tmux server 主 PID, 不连坐面板子进程
+# ExecStop:  通过 tmux 命令正常关闭会话（Ctrl-C → 面板进程自行清理）
+# SIGKILL:   10s 后仍有残留才强制杀
+KillMode=process
+KillSignal=SIGTERM
+ExecStop=/bin/bash -c 'tmux kill-session -t slam 2>/dev/null; sleep 2; true'
+TimeoutStopSec=10
+SendSIGKILL=yes
+
+# ---- 资源限制 ----
+LimitNOFILE=65536          # SLAM 可能打开大量文件/套接字
+LimitNPROC=4096
+OOMScoreAdjust=-500        # 降低被 OOM Killer 选中概率
+Nice=-10                   # 略高于普通进程的调度优先级
+
+# ---- 日志 ----
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=turbo-slam
+
+# ---- 存活检测 (可选) ----
+# WatchdogSec=30
+# 若启用需配合 sd_notify(), 否则删除这两行
+
+[Install]
+WantedBy=multi-user.target

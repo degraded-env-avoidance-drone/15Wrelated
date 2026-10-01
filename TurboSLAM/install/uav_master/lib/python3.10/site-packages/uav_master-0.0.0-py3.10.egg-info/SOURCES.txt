@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/uav_master/uav_master.egg-info/PKG-INFO
+../../build/uav_master/uav_master.egg-info/SOURCES.txt
+../../build/uav_master/uav_master.egg-info/dependency_links.txt
+../../build/uav_master/uav_master.egg-info/entry_points.txt
+../../build/uav_master/uav_master.egg-info/requires.txt
+../../build/uav_master/uav_master.egg-info/top_level.txt
+../../build/uav_master/uav_master.egg-info/zip-safe
+resource/uav_master
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+uav_master/__init__.py
+uav_master/odometry_node.py
+uav_master/odometry_subscriber.py

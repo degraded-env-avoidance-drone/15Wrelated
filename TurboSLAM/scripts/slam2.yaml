@@ -1,0 +1,29 @@
+# tmuxinator start -p slam.yaml
+# ~/.tmuxinator/slam.yaml
+name: slam
+root: ~/TurboSLAM
+
+# 可选：项目启动时全局执行（例如启动Docker、设置环境变量）
+on_project_start: echo "Starting slam environment..."
+
+# 可选：每个窗口命令执行前运行
+# pre_window: |
+#   export NVM_DIR="$HOME/.nvm"
+#   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# ---- 窗口定义区域 ----
+windows:
+  # 第一个窗口：编辑器
+  - LIDAR:
+      layout: tiled # 常用布局: even-horizontal, even-vertical, main-horizontal, tiled
+      panes:
+        - ros2 launch livox_ros_driver2 msg_MID360s_launch.py
+        - ros2 launch foxglove_bridge foxglove_bridge_launch.xml
+        - lightning-lm:
+          - sleep 10
+          - ros2 run lightning run_slam_online --config ~/TurboSLAM/src/lightning-lm/config/default_livox.yaml
+        - UAV Comm:
+          - sleep 10
+          - sudo chmod 0777 /dev/ttyS0
+        - sudo jtop
+

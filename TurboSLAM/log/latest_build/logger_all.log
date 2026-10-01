@@ -1,0 +1,446 @@
+[0.291s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DDISTRO_ROS=humble', '-DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas']
+[0.291s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DDISTRO_ROS=humble', '-DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9eb53550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9ed44af0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9ed44af0>>)
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.540s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cat/TurboSLAM'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extension 'ros'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extensions ['cmake', 'python']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extension 'cmake'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extension 'python'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extensions ['python_setup_py']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty) by extension 'python_setup_py'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Livox-SDK2) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Livox-SDK2) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Livox-SDK2) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Livox-SDK2) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Livox-SDK2) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Livox-SDK2) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Livox-SDK2) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Livox-SDK2) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Livox-SDK2) by extension 'ros'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Livox-SDK2) by extensions ['cmake', 'python']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Livox-SDK2) by extension 'cmake'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Livox-SDK2) by extension 'python'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package '3rdparty/Livox-SDK2' with type 'cmake' and name 'livox_sdk2'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Pangolin-0.9.5) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Pangolin-0.9.5) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Pangolin-0.9.5) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Pangolin-0.9.5) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Pangolin-0.9.5) by extension 'colcon_pkg'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Pangolin-0.9.5) by extensions ['colcon_meta']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Pangolin-0.9.5) by extension 'colcon_meta'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Pangolin-0.9.5) by extensions ['ros']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(3rdparty/Pangolin-0.9.5) by extension 'ros'
+[0.605s] DEBUG:colcon.colcon_core.package_identification:Package '3rdparty/Pangolin-0.9.5' with type 'ros.cmake' and name 'pangolin'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ros'
+[0.610s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[0.613s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_master) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_master) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_master) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_master) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_master) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_master) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_master) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_master) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_master) by extension 'ros'
+[0.614s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_master' with type 'ros.ament_python' and name 'uav_master'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ros'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['cmake', 'python']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'python'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['python_setup_py']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'python_setup_py'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extension 'ros'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extensions ['cmake', 'python']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extension 'cmake'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(tools/frpc_0.71.0) by extension 'python_setup_py'
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.666s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[0.704s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to '['-DDISTRO_ROS=humble', '-DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas']'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.765s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/TurboSLAM/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DDISTRO_ROS=humble', '-DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/TurboSLAM/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/cat/TurboSLAM/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_args' from command line to '['-DDISTRO_ROS=humble', '-DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas']'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_target' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_clean_first' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_force_configure' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'ament_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.766s] DEBUG:colcon.colcon_core.verb:Building package 'livox_sdk2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/TurboSLAM/build/livox_sdk2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DDISTRO_ROS=humble', '-DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/TurboSLAM/install/livox_sdk2', 'merge_install': False, 'path': '/home/cat/TurboSLAM/3rdparty/Livox-SDK2', 'symlink_install': False, 'test_result_base': None}
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'cmake_args' from command line to '['-DDISTRO_ROS=humble', '-DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas']'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'cmake_target' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'cmake_clean_first' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'cmake_force_configure' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'ament_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.766s] DEBUG:colcon.colcon_core.verb:Building package 'pangolin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/TurboSLAM/build/pangolin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DDISTRO_ROS=humble', '-DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/TurboSLAM/install/pangolin', 'merge_install': False, 'path': '/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5', 'symlink_install': False, 'test_result_base': None}
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'uav_master' build argument 'cmake_args' from command line to '['-DDISTRO_ROS=humble', '-DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas']'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'uav_master' build argument 'cmake_target' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'uav_master' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'uav_master' build argument 'cmake_clean_cache' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'uav_master' build argument 'cmake_clean_first' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'uav_master' build argument 'cmake_force_configure' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'uav_master' build argument 'ament_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'uav_master' build argument 'catkin_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'uav_master' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.767s] DEBUG:colcon.colcon_core.verb:Building package 'uav_master' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/TurboSLAM/build/uav_master', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DDISTRO_ROS=humble', '-DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/TurboSLAM/install/uav_master', 'merge_install': False, 'path': '/home/cat/TurboSLAM/src/uav_master', 'symlink_install': False, 'test_result_base': None}
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to '['-DDISTRO_ROS=humble', '-DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas']'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.768s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cat/TurboSLAM/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DDISTRO_ROS=humble', '-DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cat/TurboSLAM/install/fast_lio', 'merge_install': False, 'path': '/home/cat/TurboSLAM/src/FAST_LIO', 'symlink_install': False, 'test_result_base': None}
+[0.768s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.770s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.770s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cat/TurboSLAM/src/livox_ros_driver2' with build type 'ament_cmake'
+[0.770s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cat/TurboSLAM/src/livox_ros_driver2'
+[0.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.782s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.788s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cat/TurboSLAM/3rdparty/Livox-SDK2'
+[0.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.792s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5' with build type 'cmake'
+[0.792s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5'
+[0.793s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.793s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.797s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cat/TurboSLAM/src/uav_master' with build type 'ament_python'
+[0.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_master', 'ament_prefix_path')
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/uav_master/share/uav_master/hook/ament_prefix_path.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/uav_master/share/uav_master/hook/ament_prefix_path.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/uav_master/share/uav_master/hook/ament_prefix_path.sh'
+[0.802s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cat/TurboSLAM/src/livox_ros_driver2 -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/livox_ros_driver2
+[0.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/build/livox_sdk2': /usr/bin/cmake /home/cat/TurboSLAM/3rdparty/Livox-SDK2 -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/livox_sdk2
+[0.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5 -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/pangolin
+[1.232s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cat/TurboSLAM/src/uav_master'
+[1.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/build/livox_sdk2' returned '0': /usr/bin/cmake /home/cat/TurboSLAM/3rdparty/Livox-SDK2 -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/livox_sdk2
+[1.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/build/livox_sdk2': /usr/bin/cmake --build /home/cat/TurboSLAM/build/livox_sdk2 -- -j8 -l8
+[1.990s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_rpm, develop, build_clib, clean, register, bdist, alias, install, bdist_egg, install_data, build_py, install_egg_info, check, install_scripts, test, upload, saveopts, upload_docs, easy_install, egg_info, sdist, symlink_data, dist_info, build, rotate, build_scripts, bdist_wheel, setopt, build_ext, install_headers, install_lib, bdist_dumb
+[2.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/src/uav_master': PYTHONPATH=/home/cat/TurboSLAM/build/uav_master/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uav_master build --build-base /home/cat/TurboSLAM/build/uav_master/build install --record /home/cat/TurboSLAM/build/uav_master/install.log --install-scripts $base/lib/uav_master --single-version-externally-managed install_data
+[2.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/src/uav_master' returned '0': PYTHONPATH=/home/cat/TurboSLAM/build/uav_master/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uav_master build --build-base /home/cat/TurboSLAM/build/uav_master/build install --record /home/cat/TurboSLAM/build/uav_master/install.log --install-scripts $base/lib/uav_master --single-version-externally-managed install_data
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/uav_master' for CMake module files
+[2.666s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/uav_master' for CMake config files
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/uav_master/lib'
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/uav_master/bin'
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/uav_master/lib/pkgconfig/uav_master.pc'
+[2.671s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/uav_master/lib/python3.10/site-packages'
+[2.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_master', 'pythonpath')
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/uav_master/share/uav_master/hook/pythonpath.ps1'
+[2.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/uav_master/share/uav_master/hook/pythonpath.dsv'
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/uav_master/share/uav_master/hook/pythonpath.sh'
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/uav_master/bin'
+[2.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_master)
+[2.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/uav_master/share/uav_master/package.ps1'
+[2.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/TurboSLAM/install/uav_master/share/uav_master/package.dsv'
+[2.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/uav_master/share/uav_master/package.sh'
+[2.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/uav_master/share/uav_master/package.bash'
+[2.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/uav_master/share/uav_master/package.zsh'
+[2.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/TurboSLAM/install/uav_master/share/colcon-core/packages/uav_master)
+[12.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5 -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/pangolin
+[12.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/TurboSLAM/build/pangolin -- -j8 -l8
+[23.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cat/TurboSLAM/src/livox_ros_driver2 -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/livox_ros_driver2
+[23.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/TurboSLAM/build/livox_ros_driver2 -- -j8 -l8
+[82.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/cat/TurboSLAM/build/livox_sdk2 -- -j8 -l8
+[82.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/build/livox_sdk2': /usr/bin/cmake --install /home/cat/TurboSLAM/build/livox_sdk2
+[82.374s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_sdk2)
+[82.375s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_sdk2' for CMake module files
+[82.375s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_sdk2' for CMake config files
+[82.376s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_sdk2/lib'
+[82.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_sdk2', 'ld_library_path_lib')
+[82.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.ps1'
+[82.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.dsv'
+[82.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.sh'
+[82.379s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_sdk2/bin'
+[82.379s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_sdk2/lib/pkgconfig/livox_sdk2.pc'
+[82.379s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_sdk2/lib/python3.10/site-packages'
+[82.380s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_sdk2/bin'
+[82.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/livox_sdk2/share/livox_sdk2/package.ps1'
+[82.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/TurboSLAM/install/livox_sdk2/share/livox_sdk2/package.dsv'
+[82.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/livox_sdk2/share/livox_sdk2/package.sh'
+[82.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/livox_sdk2/share/livox_sdk2/package.bash'
+[82.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/livox_sdk2/share/livox_sdk2/package.zsh'
+[82.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/TurboSLAM/install/livox_sdk2/share/colcon-core/packages/livox_sdk2)
+[82.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/cat/TurboSLAM/build/livox_sdk2
+[90.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/TurboSLAM/build/livox_ros_driver2 -- -j8 -l8
+[90.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/TurboSLAM/build/livox_ros_driver2
+[90.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[90.428s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2' for CMake module files
+[90.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/TurboSLAM/build/livox_ros_driver2
+[90.433s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2' for CMake config files
+[90.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[90.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[90.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[90.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[90.446s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2/lib'
+[90.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[90.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[90.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[90.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[90.454s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2/bin'
+[90.455s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[90.456s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2/lib/python3.10/site-packages'
+[90.458s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2/bin'
+[90.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[90.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[90.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[90.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[90.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[90.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/TurboSLAM/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[90.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[90.479s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2' for CMake module files
+[90.483s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2' for CMake config files
+[90.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[90.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[90.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[90.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[90.496s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2/lib'
+[90.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[90.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[90.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[90.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[90.504s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2/bin'
+[90.505s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[90.506s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2/lib/python3.10/site-packages'
+[90.508s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/livox_ros_driver2/bin'
+[90.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[90.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[90.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[90.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[90.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[90.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/TurboSLAM/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[90.528s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cat/TurboSLAM/src/FAST_LIO' with build type 'ament_cmake'
+[90.528s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cat/TurboSLAM/src/FAST_LIO'
+[90.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[90.530s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[90.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/build/fast_lio': AMENT_PREFIX_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cat/TurboSLAM/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/cat/TurboSLAM/src/FAST_LIO -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/fast_lio
+[110.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cat/TurboSLAM/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/cat/TurboSLAM/src/FAST_LIO -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/fast_lio
+[110.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/build/fast_lio': AMENT_PREFIX_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cat/TurboSLAM/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cat/TurboSLAM/build/fast_lio -- -j8 -l8
+[304.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cat/TurboSLAM/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cat/TurboSLAM/build/fast_lio -- -j8 -l8
+[304.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/build/fast_lio': AMENT_PREFIX_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cat/TurboSLAM/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cat/TurboSLAM/build/fast_lio
+[304.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[304.200s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio' for CMake module files
+[304.208s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio' for CMake config files
+[304.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/cat/TurboSLAM/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cat/TurboSLAM/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cat/TurboSLAM/build/fast_lio
+[304.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[304.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[304.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[304.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[304.226s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio/lib'
+[304.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[304.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[304.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[304.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[304.232s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio/bin'
+[304.232s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[304.233s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio/lib/python3.10/site-packages'
+[304.235s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio/bin'
+[304.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/package.ps1'
+[304.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/package.dsv'
+[304.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/package.sh'
+[304.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/package.bash'
+[304.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/package.zsh'
+[304.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/TurboSLAM/install/fast_lio/share/colcon-core/packages/fast_lio)
+[304.249s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[304.250s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio' for CMake module files
+[304.254s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio' for CMake config files
+[304.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[304.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[304.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[304.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[304.260s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio/lib'
+[304.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[304.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[304.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[304.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[304.262s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio/bin'
+[304.262s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[304.263s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio/lib/python3.10/site-packages'
+[304.263s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/fast_lio/bin'
+[304.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/package.ps1'
+[304.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/package.dsv'
+[304.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/package.sh'
+[304.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/package.bash'
+[304.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/fast_lio/share/fast_lio/package.zsh'
+[304.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/TurboSLAM/install/fast_lio/share/colcon-core/packages/fast_lio)
+[307.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/TurboSLAM/build/pangolin -- -j8 -l8
+[307.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cat/TurboSLAM/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/TurboSLAM/build/pangolin
+[307.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin', 'pkg_config_path')
+[307.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/pkg_config_path.ps1'
+[307.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/pkg_config_path.dsv'
+[307.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/pkg_config_path.sh'
+[307.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin', 'pkg_config_path_multiarch')
+[307.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/pkg_config_path_multiarch.ps1'
+[307.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/pkg_config_path_multiarch.dsv'
+[307.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/pkg_config_path_multiarch.sh'
+[307.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pangolin)
+[307.575s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/pangolin' for CMake module files
+[307.576s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/pangolin' for CMake config files
+[307.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin', 'cmake_prefix_path')
+[307.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/cmake_prefix_path.ps1'
+[307.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/cmake_prefix_path.dsv'
+[307.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/cmake_prefix_path.sh'
+[307.587s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/pangolin/lib'
+[307.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin', 'ld_library_path_lib')
+[307.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/ld_library_path_lib.ps1'
+[307.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/ld_library_path_lib.dsv'
+[307.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/ld_library_path_lib.sh'
+[307.591s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/pangolin/bin'
+[307.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin', 'path')
+[307.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/path.ps1'
+[307.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/path.dsv'
+[307.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/path.sh'
+[307.594s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/pangolin/lib/pkgconfig/pangolin.pc'
+[307.595s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/pangolin/lib/python3.10/site-packages'
+[307.595s] Level 1:colcon.colcon_core.environment:checking '/home/cat/TurboSLAM/install/pangolin/bin'
+[307.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin', 'pythonscriptspath')
+[307.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/pythonscriptspath.ps1'
+[307.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/pythonscriptspath.dsv'
+[307.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cat/TurboSLAM/install/pangolin/share/pangolin/hook/pythonscriptspath.sh'
+[307.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/pangolin/share/pangolin/package.ps1'
+[307.601s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cat/TurboSLAM/install/pangolin/share/pangolin/package.dsv'
+[307.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/pangolin/share/pangolin/package.sh'
+[307.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/pangolin/share/pangolin/package.bash'
+[307.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/cat/TurboSLAM/install/pangolin/share/pangolin/package.zsh'
+[307.605s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cat/TurboSLAM/install/pangolin/share/colcon-core/packages/pangolin)
+[307.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[307.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[307.607s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[307.607s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[307.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cat/TurboSLAM/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/TurboSLAM/build/pangolin
+[307.625s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[307.626s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cat/TurboSLAM/install/local_setup.ps1'
+[307.634s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cat/TurboSLAM/install/_local_setup_util_ps1.py'
+[307.637s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cat/TurboSLAM/install/setup.ps1'
+[307.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cat/TurboSLAM/install/local_setup.sh'
+[307.640s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cat/TurboSLAM/install/_local_setup_util_sh.py'
+[307.641s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cat/TurboSLAM/install/setup.sh'
+[307.642s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cat/TurboSLAM/install/local_setup.bash'
+[307.643s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cat/TurboSLAM/install/setup.bash'
+[307.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cat/TurboSLAM/install/local_setup.zsh'
+[307.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cat/TurboSLAM/install/setup.zsh'

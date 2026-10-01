@@ -1,0 +1,3 @@
+[console_scripts]
+odometry_subscriber = uav_master.odometry_subscriber:main
+

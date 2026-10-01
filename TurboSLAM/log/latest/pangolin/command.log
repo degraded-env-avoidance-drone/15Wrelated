@@ -1,0 +1,6 @@
+Invoking command in '/home/cat/TurboSLAM/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5 -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/pangolin
+Invoked command in '/home/cat/TurboSLAM/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5 -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/pangolin
+Invoking command in '/home/cat/TurboSLAM/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/TurboSLAM/build/pangolin -- -j8 -l8
+Invoked command in '/home/cat/TurboSLAM/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/TurboSLAM/build/pangolin -- -j8 -l8
+Invoking command in '/home/cat/TurboSLAM/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/TurboSLAM/build/pangolin
+Invoked command in '/home/cat/TurboSLAM/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/TurboSLAM/build/pangolin

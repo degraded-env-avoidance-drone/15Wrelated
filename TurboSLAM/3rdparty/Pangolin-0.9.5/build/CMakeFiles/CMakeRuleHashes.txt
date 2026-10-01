@@ -1,0 +1,15 @@
+# Hashes of file build rules.
+b7fcdeec7344532fd45a4b42e74475fa CMakeFiles/pypangolin_pip_install
+278cc220a1899a625b88d80a258f5115 CMakeFiles/pypangolin_pip_uninstall
+f38e03b19f8eb174a18276d313f4a9ff CMakeFiles/pypangolin_wheel
+d4f1b24c5da973629ced2d12e274a01c CMakeFiles/uninstall
+a75fa401509baef1993c928e1358d51f fonts.cpp
+42a6314967e659c0af4a3c5ad2ecfc03 include/pangolin/factory/RegisterFactoriesVideoInterface.h
+2a3af7619882a8771c71bd43d07f952c include/pangolin/factory/RegisterFactoriesVideoOutputInterface.h
+4ea9f457128ab597c59d8bea249361d1 include/pangolin/factory/RegisterFactoriesWindowInterface.h
+57cd84f5810d16328d9a464e880623de pypangolin-0.9.5-cp310-cp310-linux_aarch64.whl
+9cfa81252ce990f759de51ef70c837ea shaders.cpp
+79cbd32494844018f9c42f94abe69f15 tools/Plotter/CMakeFiles/register-mime-info-plotter
+2b8b1fd474e0bfd9e51943f9b8bfb9cf tools/VideoViewer/CMakeFiles/register-mime-info-videoviewer
+ea9e4d546027d120d92e0d4ea8aeb2ab xdg-shell-client-protocol.h
+5197b846bf9411ae6661760ff5371a33 xdg-shell-protocol.c

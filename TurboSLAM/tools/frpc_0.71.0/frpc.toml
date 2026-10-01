@@ -1,0 +1,11 @@
+serverAddr = "182.42.58.70"
+serverPort = 7100
+transport.protocol = "tcp"
+auth.method = "token"
+auth.token = "a1KCEVd/RbPEUM1jst/KFQc24oS8J8BHllpXqEzp+WYQCUXdNO8mtJF++uPe4NDSD05zhyBA2ZHUN4Y7+mUFZubPjfd3XPc6w7O4M9ntETMKX7oPJ6VKs/kX2C/7SsuLoO3NVP47kbRRKbmYOaXZ6ChKgIw8bdPXKztbh8pbDJo="
+[[proxies]]
+name = "test-frpc"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 22
+remotePort = 7180

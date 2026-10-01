@@ -1,0 +1,736 @@
+[0.026s] Invoking command in '/home/cat/TurboSLAM/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5 -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/pangolin
+[0.192s] -- The C compiler identification is GNU 11.4.0
+[0.318s] -- The CXX compiler identification is GNU 11.4.0
+[0.331s] -- Detecting C compiler ABI info
+[0.550s] -- Detecting C compiler ABI info - done
+[0.560s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.560s] -- Detecting C compile features
+[0.560s] -- Detecting C compile features - done
+[0.565s] -- Detecting CXX compiler ABI info
+[0.749s] -- Detecting CXX compiler ABI info - done
+[0.790s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.791s] -- Detecting CXX compile features
+[0.791s] -- Detecting CXX compile features - done
+[0.794s] -- Setting build type to 'Release' as none was specified.
+[1.482s] -- libpng Found and Enabled
+[1.522s] -- libjpeg Found and Enabled
+[1.550s] -- libtiff Found and Enabled
+[1.558s] -- libopenexr Found and Enabled
+[1.562s] -- liblz4 Found and Enabled
+[1.575s] -- libzstd Found and Enabled
+[1.605s] -- Found Eigen: '/usr/include/eigen3'
+[1.628s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL EGL 
+[2.028s] -- Found epoxy: /usr/lib/aarch64-linux-gnu/libepoxy.so (found version "1.5.10") 
+[2.523s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[2.593s] -- Performing Test HAS_FLTO
+[3.237s] -- Performing Test HAS_FLTO - Success
+[5.002s] -- Selected Python: '/usr/bin/python3.10'. cmake --build . -t pypangolin_pip_install to use pypangolin module.
+[5.006s] -- libdc1394 Found and Enabled
+[5.006s] -- V4L Found and Enabled
+[5.018s] -- Performing Test HAVE_FFMPEG_MAX_ANALYZE_DURATION
+[5.823s] -- Performing Test HAVE_FFMPEG_MAX_ANALYZE_DURATION - Success
+[5.823s] -- Performing Test HAVE_FFMPEG_AVFORMAT_ALLOC_OUTPUT_CONTEXT2
+[6.643s] -- Performing Test HAVE_FFMPEG_AVFORMAT_ALLOC_OUTPUT_CONTEXT2 - Success
+[6.651s] -- Performing Test HAVE_FFMPEG_AVPIXELFORMAT
+[7.051s] -- Performing Test HAVE_FFMPEG_AVPIXELFORMAT - Success
+[7.052s] -- ffmpeg Found and Enabled: /usr/include/aarch64-linux-gnu;/usr/include/aarch64-linux-gnu;/usr/include/aarch64-linux-gnu;/usr/include/aarch64-linux-gnu;/usr/include/aarch64-linux-gnu
+[7.069s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[7.404s] -- OpenNI Found and Enabled
+[7.449s] -- OpenNI2 Found and Enabled
+[10.239s] -- Checking for module 'wayland-egl'
+[10.341s] --   Found wayland-egl, version 18.1.0
+[10.614s] -- Checking for module 'wayland-cursor'
+[10.704s] --   Found wayland-cursor, version 1.20.0
+[10.870s] -- Checking for module 'xkbcommon'
+[10.968s] --   Found xkbcommon, version 1.4.0
+[11.297s] -- Found Threads: TRUE  
+[11.300s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.317s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.325s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.340s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.347s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.350s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.367s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.369s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.388s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.391s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.398s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.401s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.431s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.433s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.455s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.458s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.465s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.467s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.487s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.489s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.496s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.512s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.520s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.523s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.542s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.545s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.573s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.576s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.584s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.587s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.597s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[11.600s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: EGL 
+[11.603s] -- Configuring done
+[11.813s] -- Generating done
+[11.821s] [33mCMake Warning:
+[11.822s]   Manually-specified variables were not used by the project:
+[11.822s] 
+[11.822s]     DISTRO_ROS
+[11.822s] 
+[11.822s] [0m
+[11.864s] -- Build files have been written to: /home/cat/TurboSLAM/build/pangolin
+[11.886s] Invoked command in '/home/cat/TurboSLAM/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5 -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/pangolin
+[11.886s] Invoking command in '/home/cat/TurboSLAM/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/TurboSLAM/build/pangolin -- -j8 -l8
+[12.050s] [  0%] [32mBuilding CXX object CMakeFiles/pango_core.dir/components/pango_core/src/sigstate.cpp.o[0m
+[12.082s] [  1%] [32mBuilding CXX object CMakeFiles/pango_core.dir/components/pango_core/src/file_utils.cpp.o[0m
+[12.085s] [  1%] [32mBuilding CXX object CMakeFiles/pango_core.dir/components/pango_core/src/file_extension.cpp.o[0m
+[12.085s] [  1%] [32mBuilding CXX object CMakeFiles/tinyobj.dir/components/tinyobj/src/tinyobj.cpp.o[0m
+[12.085s] [  2%] [32mBuilding CXX object CMakeFiles/pango_core.dir/components/pango_core/src/avx_math.cpp.o[0m
+[12.087s] [  2%] [32mBuilding CXX object CMakeFiles/pango_core.dir/components/pango_core/src/uri.cpp.o[0m
+[12.089s] [  3%] [32mBuilding CXX object CMakeFiles/pango_core.dir/components/pango_core/src/threadedfilebuf.cpp.o[0m
+[12.098s] [  3%] [32mBuilding CXX object CMakeFiles/pango_core.dir/components/pango_core/src/param_set.cpp.o[0m
+[12.365s] [  3%] [32mBuilding CXX object CMakeFiles/pango_core.dir/components/pango_core/src/factory/factory_registry.cpp.o[0m
+[15.029s] [  4%] [32mBuilding CXX object CMakeFiles/pango_core.dir/components/pango_core/src/factory/factory_help.cpp.o[0m
+[15.081s] [  4%] [32mBuilding CXX object CMakeFiles/pango_core.dir/components/pango_core/src/posix/condition_variable.cpp.o[0m
+[15.267s] [  5%] [32mBuilding CXX object CMakeFiles/pango_core.dir/components/pango_core/src/posix/semaphore.cpp.o[0m
+[16.323s] [  5%] [32mBuilding CXX object CMakeFiles/pango_core.dir/components/pango_core/src/posix/shared_memory_buffer.cpp.o[0m
+[22.660s] [  5%] [32m[1mLinking CXX shared library libtinyobj.so[0m
+[23.057s] [  5%] Built target tinyobj
+[24.627s] [  6%] [32m[1mLinking CXX shared library libpango_core.so[0m
+[25.136s] [  6%] Built target pango_core
+[25.203s] [  6%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io.cpp.o[0m
+[25.218s] [  6%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/pixel_format.cpp.o[0m
+[25.239s] [  6%] [32mBuilding CXX object CMakeFiles/pango_vars.dir/components/pango_vars/src/vars.cpp.o[0m
+[25.996s] [  6%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_packed12bit.cpp.o[0m
+[26.016s] [  7%] [32mBuilding CXX object CMakeFiles/pango_vars.dir/components/pango_vars/src/varstate.cpp.o[0m
+[27.079s] [  8%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_lz4.cpp.o[0m
+[27.198s] [  8%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_jpg.cpp.o[0m
+[32.660s] [  8%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_raw.cpp.o[0m
+[35.281s] [  8%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_tga.cpp.o[0m
+[35.972s] [  8%] [32m[1mLinking CXX shared library libpango_vars.so[0m
+[36.302s] [  8%] Built target pango_vars
+[37.262s] [  8%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_zstd.cpp.o[0m
+[39.297s] [  9%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_libraw.cpp.o[0m
+[41.108s] [  9%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_tiff.cpp.o[0m
+[43.004s] [ 10%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_bmp.cpp.o[0m
+[44.897s] [ 11%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_png.cpp.o[0m
+[44.898s] [ 11%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_ppm.cpp.o[0m
+[47.358s] [ 12%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_pango.cpp.o[0m
+[49.287s] [ 13%] [32mBuilding CXX object CMakeFiles/pango_image.dir/components/pango_image/src/image_io_exr.cpp.o[0m
+[51.022s] In file included from [01m[K/usr/include/OpenEXR/ImathVec.h:47[m[K,
+[51.022s]                  from [01m[K/usr/include/OpenEXR/ImathBox.h:65[m[K,
+[51.023s]                  from [01m[K/usr/include/OpenEXR/ImfFrameBuffer.h:51[m[K,
+[51.023s]                  from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_image/src/image_io_exr.cpp:9[m[K:
+[51.023s] [01m[K/usr/include/OpenEXR/ImathLimits.h:[m[K In static member function ‘[01m[Kstatic bool Imath_2_5::limits<char>::isSigned()[m[K’:
+[51.023s] [01m[K/usr/include/OpenEXR/ImathLimits.h:141:67:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[51.023s]   141 |     static bool                 isSigned()      {return [01;35m[K(char) ~0 < 0[m[K;}
+[51.023s]       |                                                         [01;35m[K~~~~~~~~~~^~~[m[K
+[51.804s] At global scope:
+[51.804s] [01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-deprecated-register[m[K’ may have been intended to silence earlier diagnostics
+[51.804s] [01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-null-pointer-subtraction[m[K’ may have been intended to silence earlier diagnostics
+[51.804s] [01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-null-pointer-arithmetic[m[K’ may have been intended to silence earlier diagnostics
+[52.077s] [ 14%] [32m[1mLinking CXX shared library libpango_image.so[0m
+[52.505s] [ 14%] Built target pango_image
+[52.586s] [ 15%] [34m[1mEmbedding /home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_opengl/shaders/colormaps.glsl.h;/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_opengl/shaders/font.glsl.h;/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_opengl/shaders/main_experiments.glsl;/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_opengl/shaders/main_text.glsl;/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_opengl/shaders/main_widgets.glsl;/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_opengl/shaders/matcap.glsl.h;/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_opengl/shaders/noise.glsl.h;/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_opengl/shaders/sdf.glsl.h;/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_opengl/shaders/utils.glsl.h into shaders.cpp[0m
+[52.605s] [ 15%] [34m[1mEmbedding /home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_opengl/src/fonts/AnonymousPro.ttf into fonts.cpp[0m
+[52.649s] [ 15%] [32mBuilding CXX object CMakeFiles/pango_packetstream.dir/components/pango_packetstream/src/packetstream.cpp.o[0m
+[52.661s] [ 16%] [32mBuilding CXX object CMakeFiles/pango_packetstream.dir/components/pango_packetstream/src/packet.cpp.o[0m
+[53.295s] [ 16%] [32mBuilding CXX object CMakeFiles/pango_opengl.dir/components/pango_opengl/src/glchar.cpp.o[0m
+[53.929s] [ 17%] [32mBuilding CXX object CMakeFiles/pango_opengl.dir/components/pango_opengl/src/glfont.cpp.o[0m
+[55.945s] [ 18%] [32mBuilding CXX object CMakeFiles/pango_packetstream.dir/components/pango_packetstream/src/playback_session.cpp.o[0m
+[58.483s] [ 19%] [32mBuilding CXX object CMakeFiles/pango_packetstream.dir/components/pango_packetstream/src/packetstream_reader.cpp.o[0m
+[58.498s] [ 19%] [32mBuilding CXX object CMakeFiles/pango_packetstream.dir/components/pango_packetstream/src/packetstream_writer.cpp.o[0m
+[58.499s] [ 19%] [32mBuilding CXX object CMakeFiles/pango_opengl.dir/components/pango_opengl/src/gltexturecache.cpp.o[0m
+[59.536s] [ 20%] [32mBuilding CXX object CMakeFiles/pango_opengl.dir/components/pango_opengl/src/glpangoglu.cpp.o[0m
+[59.595s] [ 20%] [32mBuilding CXX object CMakeFiles/pango_opengl.dir/components/pango_opengl/src/gltext.cpp.o[0m
+[60.645s] [ 21%] [32mBuilding CXX object CMakeFiles/pango_opengl.dir/components/pango_opengl/src/viewport.cpp.o[0m
+[61.703s] [ 21%] [32mBuilding CXX object CMakeFiles/pango_opengl.dir/components/pango_opengl/src/gldraw.cpp.o[0m
+[62.814s] [ 21%] [32mBuilding CXX object CMakeFiles/pango_opengl.dir/components/pango_opengl/src/opengl_render_state.cpp.o[0m
+[68.061s] [ 21%] [32m[1mLinking CXX shared library libpango_packetstream.so[0m
+[68.217s] [ 21%] [32mBuilding CXX object CMakeFiles/pango_opengl.dir/shaders.cpp.o[0m
+[68.356s] [ 21%] Built target pango_packetstream
+[68.856s] [ 22%] [32mBuilding CXX object CMakeFiles/pango_opengl.dir/fonts.cpp.o[0m
+[69.167s] [ 22%] [32m[1mLinking CXX shared library libpango_opengl.so[0m
+[69.369s] [ 22%] Built target pango_opengl
+[69.386s] [ 23%] [34m[1mCreating /home/cat/TurboSLAM/build/pangolin/include/pangolin/factory/RegisterFactoriesVideoOutputInterface.h factory registry header[0m
+[69.447s] [ 23%] [34m[1mCreating /home/cat/TurboSLAM/build/pangolin/include/pangolin/factory/RegisterFactoriesVideoInterface.h factory registry header[0m
+[69.525s] [ 23%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/stream_encoder_factory.cpp.o[0m
+[71.878s] [ 23%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/video_help.cpp.o[0m
+[73.914s] [ 24%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/test.cpp.o[0m
+[74.572s] [ 25%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/video.cpp.o[0m
+[75.608s] [ 25%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/images.cpp.o[0m
+[76.644s] [ 25%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/video_output.cpp.o[0m
+[77.679s] [ 26%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/video_input.cpp.o[0m
+[77.979s] [ 26%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/images_out.cpp.o[0m
+[81.005s] [ 27%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/split.cpp.o[0m
+[83.223s] [ 27%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/truncate.cpp.o[0m
+[83.926s] [ 28%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/pango.cpp.o[0m
+[84.422s] [ 28%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/pango_video_output.cpp.o[0m
+[86.263s] [ 29%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/debayer.cpp.o[0m
+[87.828s] [ 29%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/shift.cpp.o[0m
+[87.875s] [ 30%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/transform.cpp.o[0m
+[90.641s] [ 30%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/unpack.cpp.o[0m
+[93.154s] [ 30%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/pack.cpp.o[0m
+[93.382s] [ 31%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/join.cpp.o[0m
+[94.060s] [ 31%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/merge.cpp.o[0m
+[95.647s] [ 32%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/json.cpp.o[0m
+[96.743s] [ 32%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/thread.cpp.o[0m
+[97.654s] [ 33%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/mjpeg.cpp.o[0m
+[99.462s] [ 33%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/shared_memory.cpp.o[0m
+[100.433s] [ 34%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/firewire.cpp.o[0m
+[102.104s] [ 34%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/deinterlace.cpp.o[0m
+[102.411s] [ 34%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/v4l.cpp.o[0m
+[103.838s] [ 35%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/ffmpeg.cpp.o[0m
+[104.133s] [ 35%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/ffmpeg_convert.cpp.o[0m
+[105.711s] [ 36%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/ffmpeg_output.cpp.o[0m
+[106.701s] [ 36%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/openni.cpp.o[0m
+[108.684s] [ 37%] [32mBuilding CXX object CMakeFiles/pango_video.dir/components/pango_video/src/drivers/openni2.cpp.o[0m
+[115.977s] [ 37%] [32m[1mLinking CXX shared library libpango_video.so[0m
+[116.315s] [ 37%] Built target pango_video
+[116.343s] [ 37%] [34m[1mGenerating xdg-shell-client-protocol.h[0m
+[116.351s] [ 37%] [34m[1mCreating /home/cat/TurboSLAM/build/pangolin/include/pangolin/factory/RegisterFactoriesWindowInterface.h factory registry header[0m
+[116.352s] [ 37%] [32mBuilding CXX object CMakeFiles/pango_geometry.dir/components/pango_geometry/src/geometry_ply.cpp.o[0m
+[116.363s] [ 38%] [34m[1mGenerating xdg-shell-protocol.c[0m
+[116.367s] [ 39%] [32mBuilding CXX object CMakeFiles/pango_geometry.dir/components/pango_geometry/src/geometry_obj.cpp.o[0m
+[116.372s] [ 39%] [32mBuilding CXX object CMakeFiles/pango_geometry.dir/components/pango_geometry/src/geometry.cpp.o[0m
+[116.387s] [ 39%] [32mBuilding CXX object CMakeFiles/pango_scene.dir/components/pango_scene/src/renderable.cpp.o[0m
+[116.414s] [ 39%] [32mBuilding CXX object CMakeFiles/pango_windowing.dir/components/pango_windowing/src/display_headless.cpp.o[0m
+[116.433s] [ 40%] [32mBuilding CXX object CMakeFiles/pango_windowing.dir/components/pango_windowing/src/display_x11.cpp.o[0m
+[116.451s] [ 41%] [32mBuilding C object CMakeFiles/pango_windowing.dir/xdg-shell-protocol.c.o[0m
+[116.455s] [ 41%] [32mBuilding CXX object CMakeFiles/pango_windowing.dir/components/pango_windowing/src/display_wayland.cpp.o[0m
+[116.666s] [ 42%] [32mBuilding CXX object CMakeFiles/pango_windowing.dir/components/pango_windowing/src/window.cpp.o[0m
+[121.235s] [ 43%] [32m[1mLinking CXX shared library libpango_scene.so[0m
+[121.638s] [ 43%] Built target pango_scene
+[126.021s] [ 44%] [32m[1mLinking CXX shared library libpango_geometry.so[0m
+[126.386s] [ 44%] Built target pango_geometry
+[126.439s] [ 44%] [32mBuilding CXX object CMakeFiles/pango_glgeometry.dir/components/pango_glgeometry/src/glgeometry.cpp.o[0m
+[126.875s] [ 44%] [32m[1mLinking CXX shared library libpango_windowing.so[0m
+[127.142s] [ 44%] Built target pango_windowing
+[127.200s] [ 45%] [32mBuilding CXX object CMakeFiles/pango_display.dir/components/pango_display/src/display.cpp.o[0m
+[127.216s] [ 45%] [32mBuilding CXX object CMakeFiles/pango_display.dir/components/pango_display/src/pangolin_gl.cpp.o[0m
+[127.217s] [ 45%] [32mBuilding CXX object CMakeFiles/pango_display.dir/components/pango_display/src/process.cpp.o[0m
+[128.252s] [ 46%] [32mBuilding CXX object CMakeFiles/pango_display.dir/components/pango_display/src/view.cpp.o[0m
+[128.253s] [ 46%] [32mBuilding CXX object CMakeFiles/pango_display.dir/components/pango_display/src/handler_glbuffer.cpp.o[0m
+[129.295s] [ 47%] [32mBuilding CXX object CMakeFiles/pango_display.dir/components/pango_display/src/handler.cpp.o[0m
+[129.296s] [ 47%] [32mBuilding CXX object CMakeFiles/pango_display.dir/components/pango_display/src/handler_image.cpp.o[0m
+[131.216s] [ 48%] [32m[1mLinking CXX shared library libpango_glgeometry.so[0m
+[131.505s] [ 48%] Built target pango_glgeometry
+[131.542s] [ 49%] [32mBuilding CXX object CMakeFiles/pango_display.dir/components/pango_display/src/widgets.cpp.o[0m
+[132.216s] [ 49%] [32mBuilding CXX object CMakeFiles/pango_display.dir/components/pango_display/src/image_view.cpp.o[0m
+[133.643s] [ 50%] [32mBuilding CXX object CMakeFiles/pango_display.dir/components/pango_display/src/ConsoleView.cpp.o[0m
+[135.754s] In file included from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_display/include/pangolin/handler/handler_image.h:30[m[K,
+[135.754s]                  from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_display/include/pangolin/display/image_view.h:7[m[K,
+[135.754s]                  from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_display/src/image_view.cpp:1[m[K:
+[135.754s] [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_image/include/pangolin/image/image_utils.h:[m[K In function ‘[01m[Kstd::pair<float, float> pangolin::GetMinMax(const pangolin::Image<unsigned char>&, pangolin::XYRangei, const pangolin::GlPixFormat&)[m[K’:
+[135.755s] [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_image/include/pangolin/image/image_utils.h:119:1:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[135.755s]   119 | [01;36m[K)[m[K {
+[135.755s]       | [01;36m[K^[m[K
+[136.154s] In file included from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_display/include/pangolin/handler/handler_image.h:30[m[K,
+[136.154s]                  from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_display/src/handler_image.cpp:1[m[K:
+[136.155s] [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_image/include/pangolin/image/image_utils.h:[m[K In function ‘[01m[Kstd::pair<float, float> pangolin::GetMinMax(const pangolin::Image<unsigned char>&, pangolin::XYRangei, const pangolin::GlPixFormat&)[m[K’:
+[136.155s] [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_image/include/pangolin/image/image_utils.h:119:1:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[136.155s]   119 | [01;36m[K)[m[K {
+[136.155s]       | [01;36m[K^[m[K
+[136.169s] [ 50%] [32mBuilding CXX object CMakeFiles/pango_display.dir/components/pango_display/src/default_font.cpp.o[0m
+[137.439s] [ 50%] [32mBuilding CXX object CMakeFiles/pango_display.dir/fonts.cpp.o[0m
+[141.664s] [ 51%] [32m[1mLinking CXX shared library libpango_display.so[0m
+[141.907s] [ 51%] Built target pango_display
+[141.956s] [ 52%] [32mBuilding CXX object CMakeFiles/pango_plot.dir/components/pango_plot/src/datalog.cpp.o[0m
+[141.974s] [ 53%] [32mBuilding CXX object CMakeFiles/pango_tools.dir/components/pango_tools/src/video_viewer.cpp.o[0m
+[141.974s] [ 53%] [32mBuilding CXX object examples/BasicOpenGL/CMakeFiles/tutorial_1_gl_intro_classic_triangle.dir/1_gl_intro_classic_triangle.cpp.o[0m
+[143.017s] [ 53%] [32mBuilding CXX object examples/BasicOpenGL/CMakeFiles/tutorial_3_gl_intro_pango_triangle_vbo_shader.dir/3_gl_intro_pango_triangle_vbo_shader.cpp.o[0m
+[143.018s] [ 53%] [32mBuilding CXX object examples/BasicOpenGL/CMakeFiles/tutorial_3_gl_intro_classic_triangle_vbo_shader.dir/3_gl_intro_classic_triangle_vbo_shader.cpp.o[0m
+[144.063s] [ 55%] [32mBuilding CXX object examples/BasicOpenGL/CMakeFiles/tutorial_2_gl_intro_pango_triangle_vbo.dir/2_gl_intro_pango_triangle_vbo.cpp.o[0m
+[144.064s] [ 55%] [32mBuilding CXX object examples/BasicOpenGL/CMakeFiles/tutorial_2_gl_intro_classic_triangle_vbo.dir/2_gl_intro_classic_triangle_vbo.cpp.o[0m
+[144.360s] [ 55%] [32mBuilding CXX object CMakeFiles/pango_plot.dir/components/pango_plot/src/plotter.cpp.o[0m
+[144.562s] [ 55%] [32m[1mLinking CXX executable tutorial_1_gl_intro_classic_triangle[0m
+[144.757s] [ 55%] Built target tutorial_1_gl_intro_classic_triangle
+[144.788s] [ 55%] [32mBuilding CXX object examples/BasicOpenGL/CMakeFiles/tutorial_4_gl_intro_viewport.dir/4_gl_intro_viewport.cpp.o[0m
+[144.818s] [ 56%] [32mBuilding CXX object examples/BasicOpenGL/CMakeFiles/tutorial_1_gl_intro_pango_triangle.dir/1_gl_intro_pango_triangle.cpp.o[0m
+[144.883s] In file included from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_display/include/pangolin/handler/handler_image.h:30[m[K,
+[144.884s]                  from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_display/include/pangolin/display/image_view.h:7[m[K,
+[144.884s]                  from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_tools/src/video_viewer.cpp:6[m[K:
+[144.884s] [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_image/include/pangolin/image/image_utils.h:[m[K In function ‘[01m[Kstd::pair<float, float> pangolin::GetMinMax(const pangolin::Image<unsigned char>&, pangolin::XYRangei, const pangolin::GlPixFormat&)[m[K’:
+[144.884s] [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_image/include/pangolin/image/image_utils.h:119:1:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[144.884s]   119 | [01;36m[K)[m[K {
+[144.885s]       | [01;36m[K^[m[K
+[147.051s] [ 57%] [32m[1mLinking CXX executable tutorial_3_gl_intro_classic_triangle_vbo_shader[0m
+[147.502s] [ 57%] Built target tutorial_3_gl_intro_classic_triangle_vbo_shader
+[147.629s] [ 57%] [32mBuilding CXX object examples/BasicOpenGL/CMakeFiles/tutorial_5_gl_intro_view_transforms.dir/5_gl_intro_view_transforms.cpp.o[0m
+[147.972s] [ 58%] [32m[1mLinking CXX executable tutorial_4_gl_intro_viewport[0m
+[148.007s] [ 58%] [32m[1mLinking CXX executable tutorial_2_gl_intro_classic_triangle_vbo[0m
+[148.205s] [ 58%] Built target tutorial_4_gl_intro_viewport
+[148.236s] [ 58%] [32mBuilding CXX object examples/SimpleMultiDisplay/CMakeFiles/SimpleMultiDisplay.dir/main.cpp.o[0m
+[148.369s] [ 58%] Built target tutorial_2_gl_intro_classic_triangle_vbo
+[148.502s] [ 58%] [32mBuilding CXX object examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/main.cpp.o[0m
+[149.149s] [ 58%] [32m[1mLinking CXX executable tutorial_1_gl_intro_pango_triangle[0m
+[149.559s] [ 58%] Built target tutorial_1_gl_intro_pango_triangle
+[149.705s] [ 59%] [32mBuilding CXX object examples/SimpleVideo/CMakeFiles/SimpleVideo.dir/main.cpp.o[0m
+[152.368s] [ 60%] [32m[1mLinking CXX executable SimpleMultiDisplay[0m
+[152.381s] [ 60%] [32mBuilding CXX object CMakeFiles/pango_plot.dir/components/pango_plot/src/loaders/csv_table_loader.cpp.o[0m
+[152.544s] [ 61%] [32m[1mLinking CXX executable SimpleDisplayImage[0m
+[152.704s] [ 61%] Built target SimpleMultiDisplay
+[152.801s] [ 61%] [32mBuilding CXX object examples/SimpleRecord/CMakeFiles/SimpleRecord.dir/main.cpp.o[0m
+[152.817s] [ 61%] Built target SimpleDisplayImage
+[152.923s] [ 62%] [32mBuilding CXX object examples/HelloPangolinOffscreen/CMakeFiles/HelloPangolinOffscreen.dir/main.cpp.o[0m
+[153.196s] [ 63%] [32m[1mLinking CXX shared library libpango_tools.so[0m
+[153.500s] [ 64%] [32m[1mLinking CXX shared library libpango_plot.so[0m
+[153.549s] [ 64%] Built target pango_tools
+[153.582s] [ 64%] [32mBuilding CXX object examples/SimpleScene/CMakeFiles/SimpleScene.dir/main.cpp.o[0m
+[153.709s] [ 64%] [32m[1mLinking CXX executable tutorial_2_gl_intro_pango_triangle_vbo[0m
+[153.763s] [ 64%] Built target pango_plot
+[153.877s] [ 64%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pyinterpreter.cpp.o[0m
+[153.953s] [ 64%] Built target tutorial_2_gl_intro_pango_triangle_vbo
+[153.986s] [ 65%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin_module.cpp.o[0m
+[154.589s] [ 66%] [32m[1mLinking CXX executable tutorial_5_gl_intro_view_transforms[0m
+[155.035s] [ 66%] Built target tutorial_5_gl_intro_view_transforms
+[155.162s] [ 66%] [32mBuilding CXX object examples/SimplePlot/CMakeFiles/SimplePlot.dir/main.cpp.o[0m
+[157.049s] [ 66%] [32m[1mLinking CXX executable SimpleVideo[0m
+[157.157s] [ 67%] [32m[1mLinking CXX executable SimpleRecord[0m
+[157.252s] [ 68%] [32m[1mLinking CXX executable tutorial_3_gl_intro_pango_triangle_vbo_shader[0m
+[157.575s] [ 68%] Built target tutorial_3_gl_intro_pango_triangle_vbo_shader
+[157.612s] [ 68%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/attach.cpp.o[0m
+[157.833s] [ 68%] Built target SimpleVideo
+[157.872s] [ 68%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/colour.cpp.o[0m
+[158.807s] [ 68%] [32m[1mLinking CXX executable HelloPangolinOffscreen[0m
+[158.925s] [ 68%] Built target SimpleRecord
+[158.975s] [ 69%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/datalog.cpp.o[0m
+[159.465s] [ 69%] Built target HelloPangolinOffscreen
+[159.505s] [ 69%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/display.cpp.o[0m
+[161.175s] [ 70%] [32m[1mLinking CXX executable SimplePlot[0m
+[161.545s] [ 70%] Built target SimplePlot
+[161.602s] [ 71%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin_embed.cpp.o[0m
+[163.535s] [ 72%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/gl.cpp.o[0m
+[165.114s] [ 72%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/gl_draw.cpp.o[0m
+[165.126s] [ 72%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/attach.cpp.o[0m
+[165.369s] [ 73%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/colour.cpp.o[0m
+[166.933s] [ 74%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/gltext.cpp.o[0m
+[167.816s] [ 74%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/glfont.cpp.o[0m
+[168.105s] [ 74%] [32m[1mLinking CXX executable SimpleScene[0m
+[168.495s] [ 74%] Built target SimpleScene
+[178.294s] [ 75%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/display.cpp.o[0m
+[178.294s] [ 75%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/gl.cpp.o[0m
+[178.477s] [ 75%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/handler.cpp.o[0m
+[178.478s] [ 75%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/glvbo.cpp.o[0m
+[179.256s] [ 76%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/gl_draw.cpp.o[0m
+[179.257s] [ 76%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/glsl.cpp.o[0m
+[180.122s] [ 77%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/image.cpp.o[0m
+[180.151s] [ 77%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/datalog.cpp.o[0m
+[185.082s] [ 77%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/image_view.cpp.o[0m
+[188.341s] [ 78%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/opengl_render_state.cpp.o[0m
+[191.370s] [ 78%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/params.cpp.o[0m
+[195.547s] In file included from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_display/include/pangolin/handler/handler_image.h:30[m[K,
+[195.548s]                  from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_display/include/pangolin/display/image_view.h:7[m[K,
+[195.548s]                  from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_python/src/pypangolin/image_view.cpp:29[m[K:
+[195.548s] [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_image/include/pangolin/image/image_utils.h:[m[K In function ‘[01m[Kstd::pair<float, float> pangolin::GetMinMax(const pangolin::Image<unsigned char>&, pangolin::XYRangei, const pangolin::GlPixFormat&)[m[K’:
+[195.548s] [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_image/include/pangolin/image/image_utils.h:119:1:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[195.548s]   119 | [01;36m[K)[m[K {
+[195.548s]       | [01;36m[K^[m[K
+[196.877s] [ 79%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/pixel_format.cpp.o[0m
+[196.953s] [ 80%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/gltext.cpp.o[0m
+[197.095s] [ 80%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/glfont.cpp.o[0m
+[203.508s] [ 81%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/pypangoio.cpp.o[0m
+[204.102s] [ 81%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/glvbo.cpp.o[0m
+[204.547s] [ 81%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/plotter.cpp.o[0m
+[205.152s] [ 82%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/glsl.cpp.o[0m
+[205.238s] [ 82%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/var.cpp.o[0m
+[207.200s] [ 82%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/video.cpp.o[0m
+[208.882s] [ 83%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/handler.cpp.o[0m
+[219.148s] [ 84%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/opengl_render_state.cpp.o[0m
+[219.148s] [ 84%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/view.cpp.o[0m
+[220.189s] [ 85%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/image_view.cpp.o[0m
+[221.226s] [ 85%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/image.cpp.o[0m
+[222.750s] [ 85%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/params.cpp.o[0m
+[223.367s] [ 85%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/viewport.cpp.o[0m
+[224.466s] [ 86%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/pixel_format.cpp.o[0m
+[225.527s] [ 86%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/plotter.cpp.o[0m
+[225.975s] [ 87%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/pypangoio.cpp.o[0m
+[231.901s] In file included from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_display/include/pangolin/handler/handler_image.h:30[m[K,
+[231.901s]                  from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_display/include/pangolin/display/image_view.h:7[m[K,
+[231.901s]                  from [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_python/src/pypangolin/image_view.cpp:29[m[K:
+[231.901s] [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_image/include/pangolin/image/image_utils.h:[m[K In function ‘[01m[Kstd::pair<float, float> pangolin::GetMinMax(const pangolin::Image<unsigned char>&, pangolin::XYRangei, const pangolin::GlPixFormat&)[m[K’:
+[231.901s] [01m[K/home/cat/TurboSLAM/3rdparty/Pangolin-0.9.5/components/pango_image/include/pangolin/image/image_utils.h:119:1:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+[231.902s]   119 | [01;36m[K)[m[K {
+[231.902s]       | [01;36m[K^[m[K
+[238.302s] [ 88%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/widget.cpp.o[0m
+[238.303s] [ 88%] [32mBuilding CXX object CMakeFiles/pypangolin.dir/components/pango_python/src/pypangolin/window.cpp.o[0m
+[238.304s] [ 88%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/view.cpp.o[0m
+[238.532s] [ 89%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/video.cpp.o[0m
+[239.570s] [ 90%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/viewport.cpp.o[0m
+[240.619s] [ 90%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/var.cpp.o[0m
+[242.843s] [ 90%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/widget.cpp.o[0m
+[245.994s] [ 90%] [32mBuilding CXX object CMakeFiles/pango_python.dir/components/pango_python/src/pypangolin/window.cpp.o[0m
+[257.482s] [ 91%] [32m[1mLinking CXX shared module pypangolin-0.9.5.data/purelib/pypangolin.cpython-310-aarch64-linux-gnu.so[0m
+[260.626s] lto-wrapper: warning: using serial compilation of 21 LTRANS jobs
+[271.462s] [ 92%] [32m[1mLinking CXX shared library libpango_python.so[0m
+[272.093s] [ 92%] Built target pango_python
+[272.126s] [ 93%] [32mBuilding CXX object tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/main-print.cpp.o[0m
+[272.160s] [ 95%] [32mBuilding CXX object examples/SimpleDisplay/CMakeFiles/SimpleDisplay.dir/main.cpp.o[0m
+[272.160s] [ 95%] [32mBuilding CXX object tools/VideoConvert/CMakeFiles/VideoConvert.dir/main.cpp.o[0m
+[272.160s] [ 95%] [32mBuilding CXX object examples/HelloPangolin/CMakeFiles/HelloPangolin.dir/main.cpp.o[0m
+[273.213s] [ 96%] [32mBuilding CXX object tools/VideoJson/CMakeFiles/VideoJsonTransform.dir/main-transform.cpp.o[0m
+[273.214s] [ 96%] [32mBuilding CXX object tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.o[0m
+[273.222s] [ 97%] [32mBuilding CXX object tools/Plotter/CMakeFiles/Plotter.dir/main.cpp.o[0m
+[277.229s] [ 97%] [32m[1mLinking CXX executable HelloPangolin[0m
+[277.589s] [ 97%] Built target HelloPangolin
+[277.711s] [ 98%] [32mBuilding CXX object tools/ModelViewer/CMakeFiles/ModelViewer.dir/main.cpp.o[0m
+[278.939s] [ 98%] [32m[1mLinking CXX executable VideoJsonPrint[0m
+[279.413s] [ 98%] Built target VideoJsonPrint
+[279.964s] [100%] [32m[1mLinking CXX executable VideoViewer[0m
+[279.990s] [100%] [32m[1mLinking CXX executable Plotter[0m
+[280.413s] [100%] Built target Plotter
+[280.536s] [100%] Built target VideoViewer
+[284.871s] [100%] [32m[1mLinking CXX executable VideoJsonTransform[0m
+[285.494s] [100%] Built target VideoJsonTransform
+[286.999s] [100%] [32m[1mLinking CXX executable SimpleDisplay[0m
+[287.075s] [100%] [32m[1mLinking CXX executable VideoConvert[0m
+[287.308s] [100%] Built target SimpleDisplay
+[287.754s] [100%] Built target VideoConvert
+[290.633s] [100%] [32m[1mLinking CXX executable ModelViewer[0m
+[290.850s] [100%] Built target ModelViewer
+[306.638s] [100%] Built target pypangolin
+[306.677s] Invoked command in '/home/cat/TurboSLAM/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/TurboSLAM/build/pangolin -- -j8 -l8
+[306.681s] Invoking command in '/home/cat/TurboSLAM/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/TurboSLAM/build/pangolin
+[306.696s] -- Install configuration: "Release"
+[306.697s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include
+[306.697s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.698s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/platform.h
+[306.698s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/factory
+[306.698s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/factory/factory.h
+[306.699s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/factory/factory_registry.h
+[306.699s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/factory/factory_help.h
+[306.700s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/pangolin.h
+[306.700s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/compat
+[306.700s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/compat/type_traits.h
+[306.701s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/compat/glutbitmap.h
+[306.701s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils
+[306.701s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/file_extension.h
+[306.702s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/memstreambuf.h
+[306.702s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/assert.h
+[306.702s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/timer.h
+[306.703s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/params.h
+[306.703s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/xml
+[306.704s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/xml/rapidxml_iterators.hpp
+[306.704s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/xml/license.txt
+[306.704s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/xml/rapidxml_print.hpp
+[306.705s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/xml/rapidxml_utils.hpp
+[306.705s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/xml/rapidxml.hpp
+[306.705s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/range.h
+[306.706s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/posix
+[306.706s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/posix/shared_memory_buffer.h
+[306.706s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/posix/semaphore.h
+[306.707s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/posix/condition_variable.h
+[306.707s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/parse.h
+[306.708s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/avx_math.h
+[306.708s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/log.h
+[306.708s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/argagg.hpp
+[306.709s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/simple_math.h
+[306.709s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/transform.h
+[306.709s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/compontent_cast.h
+[306.710s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/signal_slot.h
+[306.710s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/threadedfilebuf.h
+[306.710s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/sigstate.h
+[306.711s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/bitmask.h
+[306.711s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/file_utils.h
+[306.712s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/fix_size_buffer_queue.h
+[306.712s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/uri.h
+[306.712s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/variadic_all.h
+[306.713s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/format_string.h
+[306.713s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/param_set.h
+[306.713s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/type_convert.h
+[306.714s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/true_false_toggle.h
+[306.714s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/picojson.h
+[306.715s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/utils/is_streamable.h
+[306.715s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/dynalo
+[306.715s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/dynalo/symbol_helper.hpp
+[306.716s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/dynalo/dynalo.hpp
+[306.716s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/dynalo/detail
+[306.716s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/dynalo/detail/linux
+[306.717s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/dynalo/detail/linux/dynalo.hpp
+[306.717s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/dynalo/detail/macos
+[306.717s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/dynalo/detail/macos/dynalo.hpp
+[306.718s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/dynalo/detail/windows
+[306.718s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/dynalo/detail/windows/dynalo.hpp
+[306.718s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/dynalo/detail/config.hpp
+[306.719s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/NaturalSort
+[306.719s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/NaturalSort/LICENSE.md
+[306.720s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/NaturalSort/README.md
+[306.720s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/NaturalSort/natural_sort.hpp
+[306.720s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/sigslot
+[306.721s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/sigslot/LICENCE
+[306.721s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/sigslot/README.md
+[306.721s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/sigslot/signal.hpp
+[306.722s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.722s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.722s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/display
+[306.723s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/display/display.hpp
+[306.723s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/display/image_view.h
+[306.723s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/display/default_font.h
+[306.724s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/display/view.h
+[306.724s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/display/attach.h
+[306.725s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/display/widgets.h
+[306.725s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/display/user_app.h
+[306.725s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/display/display.h
+[306.726s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/display/process.h
+[306.726s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/handler
+[306.726s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/handler/handler_image.h
+[306.727s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/handler/handler.h
+[306.727s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/handler/handler_glbuffer.h
+[306.728s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/console
+[306.729s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/console/InterpreterInterface.h
+[306.729s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/console/ConsoleView.h
+[306.730s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.730s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.730s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/geometry
+[306.731s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/geometry/geometry_obj.h
+[306.731s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/geometry/geometry_ply.h
+[306.731s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/geometry/geometry.h
+[306.732s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.732s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.732s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin/geometry
+[306.733s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/geometry/glgeometry.h
+[306.733s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.733s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.734s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/image
+[306.734s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/image/managed_image.h
+[306.734s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/image/memcpy.h
+[306.735s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/image/pixel_format.h
+[306.735s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/image/copy.h
+[306.735s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/image/shared_image.h
+[306.736s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/image/image_io.h
+[306.736s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/image/image.h
+[306.737s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/image/image_convert.h
+[306.737s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/image/typed_image.h
+[306.737s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/image/image_utils.h
+[306.738s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.738s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.738s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl
+[306.739s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/gltext.h
+[306.739s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glplatform.h
+[306.739s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glformattraits.h
+[306.740s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glvbo.h
+[306.740s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/gldraw.h
+[306.740s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glsl.hpp
+[306.741s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glchar.h
+[306.741s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/gl.hpp
+[306.741s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/viewport.h
+[306.742s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/opengl_render_state.h
+[306.742s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glstate.h
+[306.742s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/colour.h
+[306.743s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/cg.h
+[306.743s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glpangoglu.h
+[306.743s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glcuda.h
+[306.744s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/gltexturecache.h
+[306.744s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glsl.h
+[306.744s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glinclude.h
+[306.745s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glsl_utilities.h
+[306.746s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/compat
+[306.746s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/compat/gl_es_compat.h
+[306.746s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/compat/gl2engine.h
+[306.747s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/gl.h
+[306.747s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glfont.h
+[306.747s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/gl/glpixformat.h
+[306.748s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.748s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.749s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/log
+[306.749s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/log/packet.h
+[306.749s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/log/playback_session.h
+[306.750s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/log/packetstream.h
+[306.750s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/log/packetstream_reader.h
+[306.750s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/log/packetstream_tags.h
+[306.751s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/log/packetstream_writer.h
+[306.751s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/log/sync_time.h
+[306.751s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/log/packetstream_source.h
+[306.752s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.752s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.753s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/plot
+[306.753s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/plot/plotter.h
+[306.753s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/plot/loaders
+[306.754s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/plot/loaders/table_loader.h
+[306.754s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/plot/loaders/csv_table_loader.h
+[306.754s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/plot/datalog.h
+[306.755s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.755s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.756s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/python
+[306.756s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/python/pyinterpreter.h
+[306.756s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.757s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.757s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/scene
+[306.757s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/scene/axis.h
+[306.758s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/scene/interactive_index.h
+[306.758s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/scene/scenehandler.h
+[306.758s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/scene/interactive.h
+[306.759s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/scene/renderable.h
+[306.759s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/scene/tree.h
+[306.759s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.760s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.760s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/tools
+[306.761s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/tools/video_viewer.h
+[306.761s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.761s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.762s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/var
+[306.762s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/var/varvaluegeneric.h
+[306.762s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/var/var.h
+[306.763s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/var/varinit.h
+[306.763s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/var/varvaluet.h
+[306.763s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/var/varextra.h
+[306.764s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/var/varvalue.h
+[306.764s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/var/varwrapper.h
+[306.765s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/var/varstate.h
+[306.765s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.766s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.767s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video
+[306.767s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/iostream_operators.h
+[306.769s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/stream_encoder_factory.h
+[306.770s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/video_output.h
+[306.770s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/video_input.h
+[306.771s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/video_exception.h
+[306.772s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/video_help.h
+[306.772s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/video_record_repeat.h
+[306.773s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/video_output_interface.h
+[306.775s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/stream_info.h
+[306.775s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers
+[306.775s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/pleora.h
+[306.776s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/ffmpeg_convert.h
+[306.776s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/openni2.h
+[306.776s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/ffmpeg.h
+[306.777s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/pango.h
+[306.777s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/pack.h
+[306.777s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/ffmpeg_common.h
+[306.778s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/unpack.h
+[306.779s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/depthsense.h
+[306.780s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/gamma.h
+[306.781s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/join.h
+[306.782s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/openni_common.h
+[306.783s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/thread.h
+[306.783s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/test.h
+[306.784s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/transform.h
+[306.784s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/uvc.h
+[306.784s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/shift.h
+[306.785s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/ffmpeg_output.h
+[306.785s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/realsense2.h
+[306.786s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/firewire.h
+[306.786s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/uvc_mediafoundation.h
+[306.786s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/openni.h
+[306.787s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/mjpeg.h
+[306.787s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/v4l.h
+[306.788s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/teli.h
+[306.788s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/deinterlace.h
+[306.788s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/split.h
+[306.789s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/images_out.h
+[306.789s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/pango_video_output.h
+[306.790s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/images.h
+[306.790s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/debayer.h
+[306.791s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/merge.h
+[306.792s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/shared_memory.h
+[306.793s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/realsense.h
+[306.794s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/drivers/truncate.h
+[306.794s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/video.h
+[306.795s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/video/video_interface.h
+[306.796s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.797s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.798s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin/factory
+[306.798s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/factory/RegisterFactoriesVideoOutputInterface.h
+[306.799s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/factory/RegisterFactoriesVideoInterface.h
+[306.800s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/factory/RegisterFactoriesWindowInterface.h
+[306.800s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.801s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.803s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/windowing
+[306.804s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/windowing/PangolinNSApplication.h
+[306.804s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/windowing/X11Window.h
+[306.805s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/windowing/handler_enums.h
+[306.806s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/windowing/display_android.h
+[306.808s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/windowing/handler_bitsets.h
+[306.808s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/windowing/WinWindow.h
+[306.809s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/windowing/OsxWindow.h
+[306.810s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/windowing/window.h
+[306.810s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/windowing/EmscriptenWindow.h
+[306.811s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/pangolin/windowing/PangolinNSGLView.h
+[306.812s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.813s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin
+[306.813s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin/factory
+[306.814s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin/factory/RegisterFactoriesVideoOutputInterface.h
+[306.815s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin/factory/RegisterFactoriesVideoInterface.h
+[306.816s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include/pangolin/factory/RegisterFactoriesWindowInterface.h
+[306.816s] -- Up-to-date: /home/cat/TurboSLAM/install/pangolin/include
+[306.816s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/tinyobj
+[306.817s] -- Installing: /home/cat/TurboSLAM/install/pangolin/include/tinyobj/tiny_obj_loader.h
+[306.817s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_core.so.0.9.5
+[306.817s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_core.so.0
+[306.818s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_core.so
+[306.818s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_display.so.0.9.5
+[306.818s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_display.so.0
+[306.819s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_display.so.0.9.5" to ""
+[306.819s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_display.so
+[306.819s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_geometry.so.0.9.5
+[306.820s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_geometry.so.0
+[306.820s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_geometry.so.0.9.5" to ""
+[306.820s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_geometry.so
+[306.821s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_glgeometry.so.0.9.5
+[306.821s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_glgeometry.so.0
+[306.822s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_glgeometry.so.0.9.5" to ""
+[306.822s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_glgeometry.so
+[306.822s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_image.so.0.9.5
+[306.823s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_image.so.0
+[306.823s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_image.so.0.9.5" to ""
+[306.823s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_image.so
+[306.824s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_opengl.so.0.9.5
+[306.824s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_opengl.so.0
+[306.824s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_opengl.so.0.9.5" to ""
+[306.825s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_opengl.so
+[306.825s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_packetstream.so.0.9.5
+[306.825s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_packetstream.so.0
+[306.826s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_packetstream.so.0.9.5" to ""
+[306.826s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_packetstream.so
+[306.826s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_plot.so.0.9.5
+[306.827s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_plot.so.0
+[306.827s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_plot.so.0.9.5" to ""
+[306.827s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_plot.so
+[306.828s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_python.so.0.9.5
+[306.828s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_python.so.0
+[306.828s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_python.so.0.9.5" to ""
+[306.828s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_python.so
+[306.828s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_scene.so.0.9.5
+[306.828s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_scene.so.0
+[306.828s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_scene.so.0.9.5" to ""
+[306.828s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_scene.so
+[306.829s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_tools.so.0.9.5
+[306.829s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_tools.so.0
+[306.829s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_tools.so.0.9.5" to ""
+[306.829s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_tools.so
+[306.829s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_vars.so.0.9.5
+[306.829s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_vars.so.0
+[306.829s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_vars.so.0.9.5" to ""
+[306.829s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_vars.so
+[306.829s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_video.so.0.9.5
+[306.829s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_video.so.0
+[306.829s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_video.so.0.9.5" to ""
+[306.829s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_video.so
+[306.829s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_windowing.so.0.9.5
+[306.829s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_windowing.so.0
+[306.829s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/lib/libpango_windowing.so.0.9.5" to ""
+[306.830s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libpango_windowing.so
+[306.830s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libtinyobj.so.0.9.5
+[306.830s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libtinyobj.so.0
+[306.830s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/libtinyobj.so
+[306.830s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/cmake/Pangolin/PangolinConfig.cmake
+[306.830s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/cmake/Pangolin/PangolinConfigVersion.cmake
+[306.830s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/cmake/Pangolin/PangolinTargets.cmake
+[306.830s] -- Installing: /home/cat/TurboSLAM/install/pangolin/lib/cmake/Pangolin/PangolinTargets-release.cmake
+[306.830s] -- Installing: /home/cat/TurboSLAM/install/pangolin/bin/VideoConvert
+[306.830s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/bin/VideoConvert" to ""
+[306.830s] -- Installing: /home/cat/TurboSLAM/install/pangolin/bin/VideoJsonPrint
+[306.830s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/bin/VideoJsonPrint" to ""
+[306.830s] -- Installing: /home/cat/TurboSLAM/install/pangolin/bin/VideoJsonTransform
+[306.830s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/bin/VideoJsonTransform" to ""
+[306.831s] -- Installing: /home/cat/TurboSLAM/install/pangolin/bin/Plotter
+[306.831s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/bin/Plotter" to ""
+[306.831s] -- Installing: /home/cat/TurboSLAM/install/pangolin/bin/VideoViewer
+[306.831s] -- Set runtime path of "/home/cat/TurboSLAM/install/pangolin/bin/VideoViewer" to ""
+[306.831s] Invoked command in '/home/cat/TurboSLAM/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/TurboSLAM/build/pangolin

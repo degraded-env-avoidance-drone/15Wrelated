@@ -1,0 +1,32 @@
+# tmuxinator start -p slam.yaml
+# ~/.tmuxinator/slam.yaml
+name: slam
+root: ~/TurboSLAM
+
+# 可选：项目启动时全局执行（例如启动Docker、设置环境变量）
+on_project_start: echo "Starting slam environment..."
+
+# 可选：每个窗口命令执行前运行
+# pre_window: |
+#   export NVM_DIR="$HOME/.nvm"
+#   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# ---- 窗口定义区域 ----
+windows:
+  # 第一个窗口：编辑器
+  - LIDAR:
+      layout: tiled # 常用布局: even-horizontal, even-vertical, main-horizontal, tiled
+      panes:
+        - ros2 launch livox_ros_driver2 msg_MID360s_launch.py
+        - ros2 launch foxglove_bridge foxglove_bridge_launch.xml
+        - FAST-LIO:
+          - sleep 10
+          - ros2 launch fast_lio mapping.launch.py rviz:=false config_file:=mid360s.yaml
+        - uav_master:
+          - sleep 10
+          - ros2 run uav_master odometry_subscriber
+        # 注意: 不要在服务内开 jtop —— 它是交互式 TUI, 需要 TERM + 交互密码,
+        # 无人值守时会报 "terminal does not support clear" 或卡在 sudo 密码.
+        # 需要看板卡状态请手动: sudo jtop
+        # - system_monitor:
+        #   - sudo jtop

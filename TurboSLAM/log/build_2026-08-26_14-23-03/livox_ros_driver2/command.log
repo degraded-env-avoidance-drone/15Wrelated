@@ -1,0 +1,6 @@
+Invoking command in '/home/cat/TurboSLAM/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cat/TurboSLAM/src/livox_ros_driver2 -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/livox_ros_driver2
+Invoked command in '/home/cat/TurboSLAM/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cat/TurboSLAM/src/livox_ros_driver2 -DDISTRO_ROS=humble -DCMAKE_CXX_FLAGS=-Wno-unknown-pragmas -DCMAKE_INSTALL_PREFIX=/home/cat/TurboSLAM/install/livox_ros_driver2
+Invoking command in '/home/cat/TurboSLAM/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/TurboSLAM/build/livox_ros_driver2 -- -j8 -l8
+Invoked command in '/home/cat/TurboSLAM/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/TurboSLAM/build/livox_ros_driver2 -- -j8 -l8
+Invoking command in '/home/cat/TurboSLAM/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/TurboSLAM/build/livox_ros_driver2
+Invoked command in '/home/cat/TurboSLAM/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/TurboSLAM/build/livox_ros_driver2
